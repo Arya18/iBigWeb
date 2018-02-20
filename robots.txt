@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: 
+
+sitemap: http://www.ibigdotechnologies.com/sitemap.xml

@@ -1,0 +1,74 @@
+/* Add here all your css styles (customizations) */
+#myModal1{
+	z-index:999 !important;
+}
+#alert-div{
+	padding: 5px;
+    z-index: 999;
+    /*top: 79px;
+    position: absolute;*/
+    text-align: center;
+}
+
+.loader-image{
+  position:absolute;
+  top:50%;
+  right:50%;
+  background-repeat:no-repeat;
+  background-position:center;
+  z-index:10000000;
+  opacity: 0.7;
+  filter: alpha(opacity=40);
+}
+#sky-form4 input{
+	border:1px solid black !important;
+	height: 50px !important; 
+	width:350px !important;
+}
+.hear-form{
+	display: flex;
+	justify-content:center;
+}
+
+#start-button{
+    width:100% !important;
+    height: 50px !important; border:0px !important
+  }
+
+.banner-heading{
+  z-index: 6; 
+  font-weight:300 !important;
+  font-size: 3.2vw !important;
+}
+
+@media (max-width: 450px) {
+  .tp-banner{
+    height:250px !important;
+ }
+    #start-button,  .defButton{
+      display: flex;
+      margin-bottom:10px ;
+      width:100% !important;
+      height: 30px !important;
+    }
+    .banner-heading{
+      z-index: 6; 
+      font-weight:400 !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .tp-banner{
+    height:250px !important;
+  }
+ .banner-heading{
+      z-index: 6; 
+      font-weight:400 !important;
+  }
+   #start-button, .defButton{
+    width:100% !important;
+    height: 30px !important;
+    font-size: 11px;
+  }
+}
+
